@@ -6,8 +6,9 @@
   "scripts": {
     "build": "tsc",
     "start:dev": "nodemon server.ts",
-    "start:prod": "NODE_ENV=production nodemon server.ts",
+    "start:prod": "NODE_ENV=production nodemon ./dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "author": "",
   "license": "ISC",
