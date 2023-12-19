@@ -17,7 +17,7 @@ const userRouter = require('./routers/userRouter')
 const dotenv = require("dotenv");
 const AppErrs = require("./utils/appError");
 const GlobalErrorHandler = require("./controller/errorCtrl");
-dotenv.config({ path: './config/config.env'});
+dotenv.config({ path: './config.env'});
 console.log(process.env.PORT);
 const app = express();
 
